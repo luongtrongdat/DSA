@@ -20,5 +20,6 @@ int main() {
     printf("Phan tu xuat hien nhieu nhat la: %d", maxItem);
     return 0;
 }
+
 // Độ phưc tạp thời gian: O(n^2)
 // Độ phức tạp không gian: O(1)

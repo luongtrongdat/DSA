@@ -46,5 +46,6 @@ int main() {
     }
     return 0;
 }
-// Độ phưc tạp thời gian: O(n)
+
+// Độ phuc tạp thời gian: O(n)
 // Độ phức tạp không gian: O(1)
