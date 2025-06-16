@@ -10,6 +10,7 @@ int sumLoop(int n) {
 }
 // Độ phức tạp không gian: O(n)
 
+
 //cách 2:
 int sumLoop(int n) {
     if (n < 1) {
