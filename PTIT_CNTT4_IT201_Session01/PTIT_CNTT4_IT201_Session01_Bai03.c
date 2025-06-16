@@ -7,4 +7,4 @@ int* mallocArray(int n) {
      }
      return arr;
 }
-// Độ phức taạp thời gian: O(n)
+// Độ phức tạp không gian: O(n)

@@ -8,7 +8,7 @@ int sumLoop(int n) {
     }
     return sum;
 }
-// Độ phức tạp thời gian: O(n)
+// Độ phức tạp không gian: O(n)
 
 //cách 2:
 int sumLoop(int n) {
@@ -16,4 +16,4 @@ int sumLoop(int n) {
        return 0;
     }
     return (int)n * (n + 1) / 2;
-//Độ phức tạp thời gian: O(1)
+//Độ phức tạp không gian: O(1)

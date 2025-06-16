@@ -9,4 +9,4 @@ int countCurren(int arr[], int n, int a) {
     }
     return count;
 }
-//Độ phức tạp thời gian: O(n)
+//Độ phức tạp: O(n)

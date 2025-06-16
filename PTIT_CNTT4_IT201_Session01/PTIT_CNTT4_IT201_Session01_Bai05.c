@@ -9,4 +9,4 @@ void bubbleSort(int arr[], int n) {
           }
      }
 }
-//Độ phức tạp thời gian: O(n^2)
+//Độ phức tạp: O(n^2)
