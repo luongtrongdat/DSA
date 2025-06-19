@@ -17,7 +17,6 @@ void sumCharacter(int arr[], int n) {
         printf("Khong tim thay");
     }
 }
-
 int main() {
     int n;
     int arr[100];

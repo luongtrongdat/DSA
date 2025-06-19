@@ -9,7 +9,6 @@ void findmax(int arr[], int n) {
      }
      printf("Phan tu co gia tri lon nhat la: %d", max);
 }
-
 int main() {
     int n;
     int arr[100];

@@ -12,7 +12,6 @@ void biggerCharacter(int arr[], int n) {
         printf("Khong co phan tu nao");
     }
 }
-
 int main() {
     int n;
     int arr[100];

@@ -17,7 +17,6 @@ void deleteCharacter(int arr[], int n) {
         printf("%d",  arr[i]);
     }
 }
-
 int main() {
     int n;
     int arr[100];
