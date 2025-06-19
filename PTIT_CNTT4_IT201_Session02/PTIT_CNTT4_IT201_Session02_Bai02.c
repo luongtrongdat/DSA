@@ -12,6 +12,7 @@ void countOccurence(int arr[], int n) {
     }
     printf("Phan tu %d xuat hien: %d lan", a, count);
 }
+
 int main() {
     int n;
     int arr[100];
