@@ -12,7 +12,7 @@ int main() {
         scanf("%d", &rows);
         printf("Nhap so cot trong mang: ");
         scanf("%d", &cols);
-    } while (rows <= 0 || rows >= 1000 || cols <= 0);
+    } while (rows <= 0 || rows >= 1000 || cols <= 0 || cols >=1000) ;
     int **arr = (int **)malloc(rows * sizeof(int *));
     if (arr == NULL) {
         printf("Loi!!\n");
