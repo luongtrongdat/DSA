@@ -7,7 +7,7 @@ struct Student {
     int age;
 };
 int main() {
-    struct Student student[5];
+    struct Student students[5];
     for (int i = 0; i < 5; i++) {
         students[i].id = i + 1;
         printf("Nhap ten cua nguoi thu %d: ", i + 1);
