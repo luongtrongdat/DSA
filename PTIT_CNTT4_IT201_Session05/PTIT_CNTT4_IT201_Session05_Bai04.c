@@ -3,9 +3,8 @@
 int sumAToB(int firstNum, int secondNum) {
     if (firstNum == secondNum) {
         return firstNum;
-    } else {
-        return secondNum + sumAToB(firstNum, secondNum - 1);
     }
+    return secondNum + sumAToB(firstNum, secondNum - 1);
 }
 int main() {
     int firstNum, secondNum;

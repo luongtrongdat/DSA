@@ -4,10 +4,9 @@ void countNum(int num, int i) {
     if (i == num) {
         printf("%d", num);
         return;
-    } else {
-        printf("%d", i);
-        return countNum(num, i + 1);
     }
+    printf("%d", i);
+    return countNum(num, i + 1);
 }
 int main() {
     int num;

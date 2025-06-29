@@ -4,11 +4,11 @@
 int palindrome(int i, char str[]) {
     if (i == strlen(str)/2) {
         return 1;
-    } else if (str[i] == str[strlen(str)-i-1]) {
-        return palindrome(i + 1, str);
-    } else {
-        return 0;
     }
+    if (str[i] == str[strlen(str)-i-1]) {
+        return palindrome(i + 1, str);
+    }
+    return 0;
 }
 int main() {
     char str[50];

@@ -3,9 +3,8 @@
 int sumNum(int num) {
     if (num == 0) {
         return 0;
-    } else {
-        return num + sumNum(num - 1);
     }
+    return num + sumNum(num - 1);
 }
 int main() {
     int num;
